@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Lectia 1 HTML&CSS</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <!--Header Section-->
+  <header class="header">
+    <div class="container">
+      <div class="header__logo">
+        <a href="#"><img src="./img/logo.svg" alt="Logo" /></a>
+      </div>
+      <nav class="header__navigation">
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services and Prices</a></li>
+          <li><a href="#">Barbers</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+      </nav>
+      <div class="header__info">
+        <a href="tel:+380441111111">+38 044 111 11 11</a>
+      </div>
+      <button class="header__booking button" type="button">
+        Book a Service
+      </button>
+    </div>
+  </header>
+
+  <!-- Portiune principala a paginii web-->
+  <main>
+    <!--Hero section-->
+    <section class="hero-section">
+      <div class="container">
+        <h5 class="hero-section__subtitle">A hair salon for men in Kyiv</h5>
+        <h1 class="hero-section__title">BarberShop</h1>
+        <p class="hero-section__text">
+          We are experts in trendy men's haircuts.<br />
+          We work quickly, carefully, and tastefully.
+        </p>
+      </div>
+    </section>
+
+    <!--About section-->
+    <section class="about">
+      <div class="container">
+        <div class="about__images">
+          <img class="about__image" src="./img/img-1.jpg" alt="Img 1" />
+          <img class="about__image" src="./img/img-2.jpg" alt="Img 2" />
+        </div>
+
+        <div class="about__info">
+          <h5 class="about__subtitle">About</h5>
+          <h2 class="about__title">The Best Barbershop <br />in Your City</h2>
+          <p class="about__text">
+            If you want to add more confidence to your image, you are
+            definitely in the right place.
+          </p>
+          <p class="about__text-smaller">
+            We are a team that never rests on its laurels and yearns for
+            change. And once you fall into the hands of our master, you will
+            never be the same again. We are a team that is always on the same
+            wavelength with clients. Therefore, we are always ready to improve
+            everyone who comes to us!
+          </p>
+          <button class="about__button button">Book a service</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Prices & services section-->
+    <section class="services">
+      <div class="container">
+        <h5 class="services__subtitle">
+          Spend time in the company of the best craftsmen
+        </h5>
+        <h2 class="services__title">Services and Prices</h2>
+
+        <div class="service__container">
+          <ul class="services__list">
+            <li class="services__item">
+              <p class="services__description">
+                Men's Haircut
+                <span class="services__price">from 300 UAH</span>
+              </p>
+            </li>
+            <li class="services__item">
+              <p class="services__description">
+                Beard Trim <span class="services__price">from 200 UAH</span>
+              </p>
+            </li>
+            <li class="services__item">
+              <p class="services__description">
+                Mustache Trim
+                <span class="services__price">from 200 UAH</span>
+              </p>
+            </li>
+            <li class="services__item">
+              <p class="services__description">
+                Straight Razor Shave
+                <span class="services__price">from 200 UAH</span>
+              </p>
+            </li>
+          </ul>
+
+          <ul class="services__list">
+            <li class="services__item">
+              <p class="services__description">
+                Trainee Haircut
+                <span class="services__price">from 50 UAH</span>
+              </p>
+            </li>
+            <li class="services__item">
+              <p class="services__description">
+                Buzz Cut <span class="services__price">from 200 UAH</span>
+              </p>
+            </li>
+            <li class="services__item">
+              <p class="services__description">
+                Kids Haircut (12 y.o.)
+                <span class="services__price">from 300 UAH</span>
+              </p>
+            </li>
+            <li class="services__item">
+              <p class="services__description">
+                Gray Coverage
+                <span class="services__price">from 200 UAH</span>
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <button class="services__button button">Book a Service</button>
+      </div>
+    </section>
+
+    <!-- Reviews section-->
+    <section class="statistics">
+      <div class="container">
+        <ul class="statistics__list">
+          <li class="statistics__item">
+            <p class="statistics__value">
+              <strong>600<sup>+</sup></strong>
+            </p>
+            <p class="statistics__description">
+              Satisfied Customers<br />per Day
+            </p>
+          </li>
+          <li class="statistics__item">
+            <p class="statistics__value">
+              <strong>50<sup>+</sup></strong>
+            </p>
+            <p class="statistics__description">
+              Excellent Service <br />Awards
+            </p>
+          </li>
+          <li class="statistics__item">
+            <p class="statistics__value">
+              <strong>20<sup>+</sup></strong>
+            </p>
+            <p class="statistics__description">
+              The Best Barbers<br />
+              of Kyiv
+            </p>
+          </li>
+          <li class="statistics__item">
+            <p class="statistics__value">
+              <strong>100<sup>+</sup></strong>
+            </p>
+            <p class="statistics__description">
+              Gifts for Regular<br />
+              Customers
+            </p>
+          </li>
+        </ul>
+
+        <div class="statistics__testimonial">
+          <h5 class="statistics__subtitle">Old school</h5>
+          <h2 class="statistics__title">Why do they come to us?</h2>
+          <p class="statistics__text">
+            Only good things are said about us. But it is better to see and
+            feel 1 time than to read 10 times.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- our barbers section-->
+    <section class="barbers">
+      <div class="container">
+        <h5 class="barbers__subtitle">
+          for true connoisseurs of the atmosphere
+        </h5>
+        <h2 class="barbers__title">Our Barbers</h2>
+
+        <!-- container cu carduri despre frizeri-->
+        <div class="barbers__container">
+          <!-- Container 1-->
+          <div class="barbers__card">
+            <div class="overlay">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+                autem?
+              </p>
+              <button>Start</button>
+            </div>
+            <img src="./img/img-John-Smith.jpg" alt="John Smith imagine" class="barbers__image" />
+            <p class="barbers__name">John Smith</p>
+            <p class="barbers__role">Extreme Barber</p>
+
+            <ul class="barbers__social">
+              <li>
+                <a href="">
+                  <svg class="icon">
+                    <use href="./img/icons/symbol-defs.svg#icon-instagram" />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <svg class="icon">
+                    <use href="./img/icons/symbol-defs.svg#icon-linkedin" />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <svg class="icon">
+                    <use href="./img/icons/symbol-defs.svg#icon-facebook" />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <svg class="icon">
+                    <use href="./img/icons/symbol-defs.svg#icon-twitter" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Container 2-->
+          <div class="barbers__card">
+            <div class="overlay">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+              autem?
+            </div>
+            <img src="./img/img-Michele-Doe.jpg" alt="Michele Doe imagine" class="barbers__image" />
+            <p class="barbers__name">Michele Doe</p>
+            <p class="barbers__role">Extreme Barber</p>
+
+            <ul class="barbers__social">
+              <li>
+                <a href="">
+                  <svg class="icon">
+                    <use href="./img/icons/symbol-defs.svg#icon-instagram" />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <svg class="icon">
+                    <use href="./img/icons/symbol-defs.svg#icon-linkedin" />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <svg class="icon">
+                    <use href="./img/icons/symbol-defs.svg#icon-facebook" />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <svg class="icon">
+                    <use href="./img/icons/symbol-defs.svg#icon-twitter" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Container 3 -->
+          <div class="barbers__card">
+            <div class="overlay">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+              autem?
+            </div>
+            <img src="./img/img-Alan-Black.jpg" alt="Alan Black imagine" class="barbers__image" />
+            <p class="barbers__name">Alan Black</p>
+            <p class="barbers__role">Extreme Barber</p>
+
+            <ul class="barbers__social">
+              <li>
+                <a href="">
+                  <svg class="icon">
+                    <use href="./img/icons/symbol-defs.svg#icon-instagram" />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <svg class="icon">
+                    <use href="./img/icons/symbol-defs.svg#icon-linkedin" />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <svg class="icon">
+                    <use href="./img/icons/symbol-defs.svg#icon-facebook" />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <svg class="icon">
+                    <use href="./img/icons/symbol-defs.svg#icon-twitter" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- our place section-->
+    <section class="place">
+      <div class="container">
+        <h5 class="place__subtitle">In Latin, "barba" means "beard"</h5>
+        <div class="place__images">
+          <img src="./img/photo1.jpg" alt="Foto 1" class="place__image" />
+          <img src="./img/photo2.jpg" alt="Foto 2" class="place__image" />
+          <img src="./img/photo3.jpg" alt="Foto 3" class="place__image" />
+          <img src="./img/photo4.jpg" alt="Foto 4" class="place__image" />
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section-->
+    <section class="contact">
+      <div class="contanct__form"></div>
+      <div class="contact__info">
+        <h2 class="contact__title">Contacts</h2>
+        <address class="contact__info-address">
+          <p class="contact__address-item">
+            <svg class="icon">
+              <use href="./img/icons/symbol-defs.svg#icon-map" />
+            </svg>
+            <a href="https://www.google.com/maps/place/Main+Street,+7A+Kyiv,+08132">
+              Main Street, 7A Kyiv, 08132</a>
+          </p>
+          <p class="contact__address-item">
+            <svg class="icon">
+              <use href="./img/icons/symbol-defs.svg#icon-phone" />
+            </svg>
+            <a href="tel:+380441111111">+38 044 111 11 11</a>
+          </p>
+
+          <p class="contact__address-item">
+            <svg class="icon">
+              <use href="./img/icons/symbol-defs.svg#icon-email" />
+            </svg>
+            <a href="mailto:barbershop@email.com">barbershop@email.com</a>
+          </p>
+        </address>
+        <p class="contact__subtitle">working hours</p>
+        <p class="contact__text">Daily from 9:00 AM till 22:00 PM</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- footer section-->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__copyright">&copy; Copyright 2022</p>
+      <ul class="footer__social">
+        <li class="footer__social-item">Instagram</li>
+        <li class="footer__social-item">Youtube</li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>
