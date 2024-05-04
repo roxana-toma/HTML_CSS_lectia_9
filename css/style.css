@@ -63,6 +63,7 @@ body {
 
 .header__navigation a:hover {
   color: var(--orange);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header__info a {
